@@ -1,0 +1,54 @@
+body{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: medium;
+  font-weight: bold;
+  padding-top: 30px;
+}
+
+form{
+  background-color: teal;
+  color: white;
+  padding: 20px 30px;
+  border: 0 solid beige;
+  border-radius: 10px;
+  width: 50%;
+  height: 30%;
+  margin: 0 auto; 
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+
+}
+
+
+
+h1{
+  font-style: italic;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+
+input,
+select{
+  padding: 5px;
+  width: 100%;
+  border-radius: 5px;
+  text-align: center;
+  
+}
+
+button{
+  display: block;
+  margin: auto;
+  padding: 10px 20px;
+  background-color: orange;
+  color: teal;
+  border: 1px solid white;
+  border-radius: 10px;
+
+}
+
+button:hover{
+  background-color: white;
+  cursor: pointer;
+}

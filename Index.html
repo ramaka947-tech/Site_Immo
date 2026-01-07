@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire d'inscription</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form method="post">
+        <h1>Remplissez vos informations</h1>
+        <label for="Nom">Nom :</label>
+        <input type="text" name="Nom"><br><br>
+
+        <label for="Email">Email :</label>
+        <input type="email" name="email"><br><br>
+
+        <label for="mot_passe">Mot de passe :</label>
+        <input type="password" name="mot_passe"><br><br>
+
+        <label for="Sexe">Sexe :</label>
+        <input type="radio" name="sexe" id="male">
+        <label for="male">Homme</label>
+        <input type="radio" name="sexe" id="female">
+        <label for="female">Femme</label><br><br>
+
+        <label for="Pays">Pays :</label>
+        <select name="pays">
+            <option value="Senegal">Senegal</option>
+            <option value="Mali">Mali</option>
+            <option value="Guinée">Guinée</option>
+            <option value="Mauritanie">Mauritanie</option>
+            <option value="Gabon">Gabon</option>
+        </select><br><br>
+
+        <label for="conditions">
+            <input type="checkbox" name="conditions">
+            Acceptez-vous les conditions d'utilisations
+        </label><br><br>
+        <button type="submit">Envoyer</button>
+</body>
+</html>
+
+
+
